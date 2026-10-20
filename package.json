@@ -1,20 +1,29 @@
 {
-  "name": "backend-ledger",
+  "name": "bank-transaction-system-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Production-grade banking transaction and double-entry ledger backend system with ACID transactions, idempotency, and immutability guarantees.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx nodemon server.js",
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "banking",
+    "ledger",
+    "double-entry",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "transactions",
+    "idempotency"
+  ],
+  "author": "Malla Manoj <mallamanoj718@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
-    "cookieparser": "^0.1.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
